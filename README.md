@@ -7,7 +7,7 @@ Data structures describe, how to store the data in memory so that the computer c
 
 Brief description or introduction to the topic.
 
-**ARRAY-**
+**1.ARRAY-**
 
 The most important factor is it uses contiguous memory allocation of data where a block of memory is reserved for a data structure.
 It is an infinite collection of homogeneous(similar type) elements.
