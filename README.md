@@ -4,6 +4,7 @@ My notes on Data Structures.....
 Data structures describe, how to store the data in memory so that the computer can perform operations on data efficiently.
 
 **Topics**
+
 Brief description or introduction to the topic.
 
 **ARRAY-**
