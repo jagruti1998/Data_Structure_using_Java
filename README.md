@@ -4,12 +4,13 @@ My notes on Data Structures.....
 Data structures describe, how to store the data in memory so that the computer can perform operations on data efficiently.
 
 **Topics**
+Brief description or introduction to the topic.
 
-**ARRAY**
+**ARRAY-**
+
 The most important factor is it uses contiguous memory allocation of data where a block of memory is reserved for a data structure.
 It is an infinite collection of homogeneous(similar type) elements.
 
-Brief description or introduction to the topic.
 - [array creation](src/arrays/array_creation.java)
 - [array insertion](src/arrays/array_insertion.java)
 - [array deletion](src/arrays/array_deletion.java)
