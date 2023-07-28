@@ -6,7 +6,7 @@ Data structures describe, how to store the data in memory so that the computer c
 **Topics**
 
 Brief description or introduction to the topic.
-- [arrays](src/arrays)
+- [array creation](src/arrays/array_creation.java)
 - 
 
 Each topic is organized in its respective folder. Click on the links above to learn more about each topic.
