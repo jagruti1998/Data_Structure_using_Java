@@ -25,13 +25,41 @@ It is an infinite collection of homogeneous(similar type) elements.
 **Disadvantages**
 - Insertion Time Complexity T(n)=o(n)
 - Deletion Time Complexity T(n)=o(n)
-- The sie of the array should be known in advance
+- The size of the array should be known in advance
 - Wastage of memory if data is not stored as per the size of an array declared
 
 **Applications**
-- Seraching
+- Searching
 - Sorting
 - Matrix Operations
-- Can Implement stack, queue,tree graph
+- Can Implement stack, queue, tree graph
+
+**2.LINKEDLIST-**
+
+The elements are not stored at contiguous memory allocation. Instead, the data is stored in chunks. LinkedList overcomes the limitation of an array by providing a more flexible and dynamic data structure.
+
+- [Singly Linked List](src/linkedlist/Single_LL.java)
+- [Singly_Insertion](src/linkedlist/SinglyLL_insertion.java)
+- [Singly_Deletion](src/linkedlist/SinglyLL_deletion.java)
+- [Circular Linked List](src/linkedlist/Circular_LL.java)
+- [Circular Insertion](src/linkedlist/CircularLL_insertion.java)
+- [Circular Deletion](src/linkedlist/CircularLL_deletion.java)
+
+**Advantages over Array**
+- No need to initialize the number of elements to be stored
+- Non-contiguous memory allocation
+
+**Disadvantages**
+- Access Time Complexity is more than the array
+- More memory space is required
+
+**2.STACK-**
+
+It is an ordered list in which the addition of new elements and deletion of already existing elements is done from only one end known as the top of the stack. 
+It is called Last In First Out (LIFO)
+
+- [Stack using array](src/stack/stack_Array.java)
+- [Stack using linkedlist](src/stack/stack_LinkedList.java)
+
 
 Each topic is organized in its respective folder. Click on the links above to learn more about each topic.
