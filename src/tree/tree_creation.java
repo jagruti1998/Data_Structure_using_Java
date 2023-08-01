@@ -22,7 +22,7 @@ public class tree_creation {
             System.out.println("Enter left child of " + root.data);
             root.left = create();//recursion function
 
-             
+
 
             return root;
         }
@@ -36,14 +36,3 @@ public class tree_creation {
 
 
 
-        //Basic node structure of binary tree in linked list
-        class Node {
-            Node left, right;
-            int data;
-
-            public Node(int data) {
-                this.data = data;
-                left = null;
-                right = null;
-            }
-        }
