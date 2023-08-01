@@ -69,5 +69,6 @@ It is called First In First Out (FIFO)
 
 - [Queue using array](src/queue/queue_array.java)
 - [Queue using linkedlist](src/queue/queue_LinkedList.java)
+- [Circular Queue](src/queue/Circular_queue_array.java)
 
 Each topic is organized in its respective folder. Click on the links above to learn more about each topic.
