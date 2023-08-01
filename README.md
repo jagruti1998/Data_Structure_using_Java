@@ -61,5 +61,13 @@ It is called Last In First Out (LIFO)
 - [Stack using array](src/stack/stack_Array.java)
 - [Stack using linkedlist](src/stack/stack_LinkedList.java)
 
+  
+**2.QUEUE-**
+
+It is a homogeneous collection of elements in which new elements are added at one end called the rear, and the existing element is deleted from the other end called the front. 
+It is called First In First Out (FIFO)
+
+- [Queue using array](src/queue/queue_array.java)
+- [Queue using linkedlist](src/queue/queue_LinkedList.java)
 
 Each topic is organized in its respective folder. Click on the links above to learn more about each topic.
