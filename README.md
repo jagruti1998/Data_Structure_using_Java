@@ -1,11 +1,11 @@
 # Data_Structure_using_Java
-My notes on Data Structures.....
+My notes on Data Structures and implementation using Java.
 
 Data structures describe, how to store the data in memory so that the computer can perform operations on data efficiently.
 
 **Topics**
 
-Brief description or introduction to the topic.
+Brief description or introduction to the topics.
 
 **1.ARRAY-**
 
