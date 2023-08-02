@@ -34,6 +34,7 @@ It is an infinite collection of homogeneous(similar type) elements.
 - Matrix Operations
 - Can Implement stack, queue, tree graph
 
+
 **2.LINKEDLIST-**
 
 The elements are not stored at contiguous memory allocation. Instead, the data is stored in chunks. LinkedList overcomes the limitation of an array by providing a more flexible and dynamic data structure.
@@ -53,6 +54,7 @@ The elements are not stored at contiguous memory allocation. Instead, the data i
 - Access Time Complexity is more than the array
 - More memory space is required
 
+
 **3.STACK-**
 
 It is an ordered list in which the addition of new elements and deletion of already existing elements is done from only one end known as the top of the stack. 
@@ -71,6 +73,7 @@ It is called First In First Out (FIFO)
 - [Queue using linkedlist](src/queue/queue_LinkedList.java)
 - [Circular Queue](src/queue/Circular_queue_array.java)
 
+
 **5.TREE-**
 
 A tree is a non-linear data structure in which items or data are stored at different levels.
@@ -78,6 +81,8 @@ The data is not stored in a sequential manner.
 
 - [Tree creation](src/tree/tree_creation.java)
 - [Tree traversal](src/tree/tree_traversal.java)
+
+
 
 
 **Searching Algorithms-**
