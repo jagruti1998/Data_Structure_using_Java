@@ -101,7 +101,7 @@ public class tree_traversal {
         return root.data;
     }
 
-    
+
 
     public static void main(String[] args) {
         Node root = create();
