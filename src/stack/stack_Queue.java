@@ -1,2 +1,4 @@
-package stack;public class stack_Queue {
+package stack;
+
+public class stack_Queue {
 }
