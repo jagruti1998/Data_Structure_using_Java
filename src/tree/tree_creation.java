@@ -23,6 +23,10 @@ public class tree_creation {
             root.left = create();//recursion function
 
 
+        System.out.println("Enter right child of " +root.data);
+        root.right=create();
+
+
 
             return root;
         }
