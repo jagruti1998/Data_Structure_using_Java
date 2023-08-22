@@ -1,5 +1,6 @@
 package graph;
 
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 
 public class graph {
@@ -39,5 +40,12 @@ public class graph {
 
         int V=4;//vertex is 4
         ArrayList<Edge> graph[]=new ArrayList[V];//defined graph
+        createGraph(graph);
+
+        //print 2's neighbours
+        for(int i=0;i<graph[2].size();i++){  //size of arraylist
+            Edge e=graph[2].get(i);
+            System.out.println(e.dest +" ");
+        }
     }
 }
