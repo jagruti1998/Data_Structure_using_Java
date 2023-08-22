@@ -1,5 +1,5 @@
 package graph;
-
+//unweighted graph
 import java.sql.SQLOutput;
 import java.util.ArrayList;
 
@@ -8,6 +8,7 @@ public class graph {
     static class Edge{
         int src;
         int dest;
+
 
         public Edge(int s,int d){
             this.src=s;

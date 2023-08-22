@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3691f4a4-d272-48ab-bd93-8b07caf3c4b3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/graph/weighted_graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/graph/graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/graph.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +44,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.graph">
+  <component name="RunManager" selected="Application.weighted_graph">
     <configuration name="BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="binarysearchtree.BST" />
       <module name="Data_Structure_using_Java" />
@@ -95,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tree_creation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.tree_creation" />
+    <configuration name="weighted_graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.weighted_graph" />
       <module name="Data_Structure_using_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.weighted_graph" />
         <item itemvalue="Application.graph" />
         <item itemvalue="Application.BST" />
         <item itemvalue="Application.InsertNode" />
         <item itemvalue="Application.Searchnode" />
-        <item itemvalue="Application.tree_creation" />
       </list>
     </recent_temporary>
   </component>
