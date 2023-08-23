@@ -81,14 +81,14 @@ public class DFS {
 
         ArrayList<Edge> graph[] = new ArrayList[V];
         createGraph(graph);
+
         boolean vis[] = new boolean[V];
-      /*  for (int i=0;i<V;i++){
+        for (int i=0;i<V;i++){
             if(vis[i]==false){
-                bfs(graph,V,vis,i);
+                dfs(graph,0,vis);
             }
         }
-*/
-        dfs(graph,0,vis);
+
         System.out.println();
     }
 }
