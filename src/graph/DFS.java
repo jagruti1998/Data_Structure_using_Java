@@ -2,7 +2,7 @@ package graph;
 
 import java.util.*;
 
-public class BFS {
+public class DFS {
 
     static class Edge {
         int src;
@@ -61,18 +61,34 @@ public class BFS {
         }
     }
 
+
+
+    public static void dfs(ArrayList<Edge> graph[], int curr,boolean vis[]){
+        System.out.print(curr+"");
+        vis[curr]=true;
+
+        for (int i=0;i<graph[curr].size();i++){
+            Edge e=graph[curr].get(i);
+            if(vis[e.dest]==false)
+            dfs(graph,e.dest,vis);
+        }
+
+    }
+
+
     public static void main(String[] args) {  //O(V+E)
         int V = 7;
 
         ArrayList<Edge> graph[] = new ArrayList[V];
         createGraph(graph);
         boolean vis[] = new boolean[V];
-        for (int i=0;i<V;i++){
+      /*  for (int i=0;i<V;i++){
             if(vis[i]==false){
                 bfs(graph,V,vis,i);
             }
         }
-        
+*/
+        dfs(graph,0,vis);
         System.out.println();
     }
 }

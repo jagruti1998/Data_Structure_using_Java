@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3691f4a4-d272-48ab-bd93-8b07caf3c4b3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/graph/DFS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/graph/BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/BFS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +43,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BFS">
+  <component name="RunManager" selected="Application.DFS">
     <configuration name="BFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graph.BFS" />
       <module name="Data_Structure_using_Java" />
@@ -69,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binarysearchtree.InsertNode" />
+    <configuration name="DFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.DFS" />
       <module name="Data_Structure_using_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="binarysearchtree.*" />
+          <option name="PATTERN" value="graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DFS" />
         <item itemvalue="Application.BFS" />
         <item itemvalue="Application.weighted_graph" />
         <item itemvalue="Application.graph" />
         <item itemvalue="Application.BST" />
-        <item itemvalue="Application.InsertNode" />
       </list>
     </recent_temporary>
   </component>
