@@ -22,7 +22,7 @@ public class ValidBST {
         return isValid(root, Long.MIN_VALUE, Long.MAX_VALUE);
     }
 
-    public boolean isValid(TreeNode root, long min, long max) {
+    public boolean isValid(TreeNode root, long min, long max) {  //time complexity is O(n):
         if (root == null) return true;
         if (root.val >= max || root.val <= min) {
             return false;
