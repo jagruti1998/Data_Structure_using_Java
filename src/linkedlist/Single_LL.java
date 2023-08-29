@@ -9,7 +9,7 @@ public class Single_LL {
         int data;
         Node next;
 
-        Node(int data) //constrcutor
+        Node(int data) //constructor
 
         {
             this.data=data; //to initialise the initial value of variables in the class
@@ -19,10 +19,7 @@ public class Single_LL {
     }
     Node head=null;//initially head is null
 
-
-
      //taking values from user
-
      public void creation(){
     int data,n;
          Scanner sc=new Scanner(System.in);
@@ -31,6 +28,7 @@ public class Single_LL {
              data = sc.nextInt();
              Node new_node = new Node(data);
 
+             //insertion of node in Singly LL
              //if LL is Empty
              if (head == null) {
                  head = new_node; //10
@@ -61,11 +59,7 @@ public class Single_LL {
     }
         System.out.println("null");
 
-
 }
-
-
-
     public static void main(String[] args)
     {
         Single_LL ll=new Single_LL();
