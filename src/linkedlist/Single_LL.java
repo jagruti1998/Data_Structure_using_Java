@@ -29,6 +29,7 @@ public class Single_LL {
              Node new_node = new Node(data);
 
              //insertion of node in Singly LL
+
              //if LL is Empty
              if (head == null) {
                  head = new_node; //10

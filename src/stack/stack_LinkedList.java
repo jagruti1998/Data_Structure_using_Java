@@ -11,7 +11,7 @@ class stack1{
         int data;
         Node next;
 
-        Node(int data) //constrcutor
+        Node(int data) //constructor
 
         {
             this.data = data; //to initialise the initial value of variables in the class

@@ -13,8 +13,10 @@ class stack {
         } else {
             System.out.println("Enter data");
             int i = sc.nextInt();
-            top = top + 1;
-            a[top] = i;
+          //  top = top + 1;
+          //  a[top] = i;
+            a[++top]=i;
+
             System.out.println("Item inserted");
         }
     }
@@ -23,7 +25,8 @@ class stack {
         if (top == -1) {
             System.out.println("Underflow");
         } else {
-            top = top - 1;
+           // top = top - 1;
+            top--;
             System.out.println("Item deleted");
         }
     }
